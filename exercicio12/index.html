@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <title>12 - Vídeos em HTML5 </title>
+</head>
+<body>
+
+    
+    <h1>Inserindo Vídeos hospedados localmente </h1>
+    
+    <p>Este vídeo está hospedado no próprio servidor!</p>
+
+    <video src="midia/cars.mp4" width="500px" controls></video>
+    
+
+    <p>Vídeo / Source</p>
+
+    <video width="500px" poster="imagens/cars.jpg" controls>
+        <source src="midia/cars.mp4" type="video/mp4"> <!--Opção 1-->
+        <source src="midia/cars.mp4" type="video/mp4"> <!--Opção 2-->
+        <source src="midia/cars.mp4" type="video/mp4"> <!--Opção 3-->
+        <source src="midia/cars.mp4" type="video/mp4"> <!--Opção 4-->
+        <p>Navegador não compatível</p> <!--Se não for compátivel com nenhum video, mostra mensagem-->
+
+    </video>
+    
+    <h1>Vídeo com hospedagem externa</h1>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/K9OVspgDu38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+    <h1>Vídeo do Vimeo</h1>
+
+    <iframe src="https://player.vimeo.com/video/274625920?h=7996d45fe2" width="640" height="268" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <p><a href="https://vimeo.com/274625920">Dongfeng Concept Car e.&pi;</a> from <a href="https://vimeo.com/bitone">BITONE</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+
+</body>
+</html>
